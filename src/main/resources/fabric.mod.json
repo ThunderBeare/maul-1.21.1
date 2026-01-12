@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/ThunderBeare/Maul"
+		"sources": "https://github.com/ThunderBeare/maul-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/maul/icon.png",
