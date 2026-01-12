@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "maul",
+	"version": "${version}",
+	"name": "Maul",
+	"description": "Blood for the Blood God!",
+	"authors": [
+		"Thunder"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ThunderBeare/Maul"
+	},
+	"license": "MIT",
+	"icon": "assets/maul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thunder.maul.Maul"
+		],
+		"client": [
+			"net.thunder.maul.MaulClient"
+		],
+		"fabric-datagen": [
+			"net.thunder.maul.MaulDataGenerator"
+		]
+	},
+	"mixins": [
+		"maul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
