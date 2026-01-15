@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "maul:pink_garnet_block",
+    "maul:raw_pink_garnet_block",
+    "maul:pink_garnet_ore",
+    "maul:pink_garnet_deepslate_ore"
+  ]
+}
